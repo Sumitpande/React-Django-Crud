@@ -1,6 +1,6 @@
 # React-Django-Crud
 
-#####do 
+##### do 
 + pip install requirements.txt
 
 
