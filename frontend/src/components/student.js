@@ -119,6 +119,19 @@ export default function Student() {
 
   return (
     <MaterialTable
+      options={{
+        exportButton: true,
+        filtering: true,
+        search: true,
+        grouping: true,
+        rowStyle: {
+          backgroundColor: '#f345',
+        },
+        headerStyle: {
+          backgroundColor: '#23eb8a',
+          color: '#0a0a0a'
+        }
+      }}
       
       title="Student Information"
       columns={state.columns}
